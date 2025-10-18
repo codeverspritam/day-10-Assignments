@@ -1,0 +1,156 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica Neue", "Arial", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* Override for nav and footer */
+#nav,
+footer {
+  border-radius: 0;
+}
+
+#nav {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  background-color: #0a4d68;
+  color: white;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 25px;
+  padding-bottom: 7px;
+}
+
+header h3 {
+  font-style: italic;
+  font-weight: 500;
+  margin: top 5px;
+  font-size: 1rem;
+  margin-left: 6%;
+}
+
+#about-me {
+  width: 80%;
+  margin-top: 25px;
+  margin-left: 10%;
+  text-align: center;
+  padding: 10px;
+  background-color: #e3f2fd;
+}
+
+#about-me h2 {
+  font-size: 17px;
+  padding-top: 20px;
+  padding-bottom: 7px;
+}
+
+#about-me p {
+  padding-bottom: 20px;
+}
+
+.box {
+  width: 70%;
+  padding: 6px;
+  margin-top: 10px;
+  background-color: white;
+  margin-left: 15%;
+  margin-bottom: 1%;
+}
+
+#education {
+  width: 80%;
+  margin-top: 25px;
+  margin-left: 10%;
+  text-align: center;
+  padding: 10px;
+  background-color: #1976d2;
+}
+
+.box1 {
+  width: 70%;
+  padding: 6px;
+  margin-top: 10px;
+  background-color: white;
+  margin-left: 15%;
+  margin-bottom: 1%;
+  font-size: 10px;
+}
+
+#education h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+#skills {
+  width: 80%;
+  margin-top: 25px;
+  margin-left: 10%;
+  text-align: center;
+  padding: 10px;
+  background-color: #42a5f5;
+}
+
+#skills h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 17px;
+}
+
+#projects {
+  width: 80%;
+  margin-top: 25px;
+  margin-left: 10%;
+  text-align: center;
+  padding: 10px;
+  background-color: #90caf9;
+}
+
+#projects h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 17px;
+}
+
+#contact-me {
+  width: 80%;
+  margin-top: 25px;
+  margin-left: 10%;
+  text-align: center;
+  padding: 10px;
+  background-color: #64b5f6;
+  margin-bottom: 1%;
+}
+
+#contact-me h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 17px;
+}
+
+p {
+  font-size: 13px;
+  border-radius: 2px;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  padding: 20px;
+  font-size: 10px;
+}
